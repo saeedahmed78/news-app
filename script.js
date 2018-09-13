@@ -4,7 +4,7 @@
 						success:function(data){
 							console.log(data);
 							for(i=0 ; i<data.articles.length;i++){
-								console.log("lanat")
+								
 								document.querySelector(".section1").innerHTML += `
 						<div class="bg-img" style="background-image: url(${data.articles[i].urlToImage})">
 						<div class="bg-dark">		
